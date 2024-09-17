@@ -129,7 +129,12 @@ Connect the DFPlayer Mini module to the ESP32 as follows:
 - **Reset Module**: If the DFPlayer Mini is unresponsive, try resetting it by pressing the reset button.
 
 ## Images
-Include images of the DFPlayer Mini module, ESP32 board, and their connections to illustrate the setup.
+### Circuit Diagram
+Here is the circuit diagram for connecting the DFPlayer Mini to the ESP32:
+
+![Circuit Diagram](https://github.com/Sukarnascience/DFPlayer-Mini-Library-for-ESP32/blob/main/ESP32%20COnnections%20with%20amplifier.jpg)
+
+**Credits**: The circuit diagram was created by Techiesms. For further details, refer to their [YouTube video](https://www.youtube.com/watch?v=cHGcoPfpP_w&t=135s).
 
 ## License
 This library is released under the MIT License.
