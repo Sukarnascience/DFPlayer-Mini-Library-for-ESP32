@@ -46,7 +46,7 @@ The DFPlayer Mini is a compact and affordable MP3 player module that can be used
 5. **Search for** `esp32` and click `Install`.
 
 ## Example Usage
-The following example code demonstrates how to use the DFPlayer Mini library to play MP3 files on an ESP32 board. This code provides a basic template for integrating the DFPlayer Mini with your ESP32-based projects.
+The following example code demonstrates how to use the DFPlayer Mini library to play MP3 files on an ESP32 board. Ensure that your MP3 files are named and organized correctly on your TF card as specified below.
 
 ```cpp
 #include "Arduino.h"
@@ -97,6 +97,22 @@ void loop() {
 }
 ```
 
+**Important: MP3 File Organization**
+
+1. **Create a Folder**: On your TF card (microSD card), create a folder named `mp3` in the root directory.
+2. **Organize MP3 Files**: Place your MP3 files inside this `mp3` folder. Name the files in the format `0001.mp3`, `0002.mp3`, `0003.mp3`, and so on.
+
+**Example Directory Structure:**
+
+```
+/mp3
+  /0001.mp3
+  /0002.mp3
+  /0003.mp3
+```
+
+Ensure that you follow this naming and directory structure, as the DFPlayer Mini expects to find MP3 files in this specific format.
+
 ## Connections
 Connect the DFPlayer Mini module to the ESP32 as follows:
 - **VCC**: Connect to 5V on the ESP32 board
@@ -108,7 +124,7 @@ Connect the DFPlayer Mini module to the ESP32 as follows:
 
 ## Troubleshooting
 - **Ensure Proper Connections**: Verify that the DFPlayer Mini is correctly connected to the ESP32.
-- **Check SD Card**: Ensure the microSD card is inserted and contains MP3 files.
+- **Check SD Card**: Ensure the microSD card is inserted and contains MP3 files in the correct directory and format.
 - **Verify Audio Output**: Confirm that the speaker or headphones are properly connected.
 - **Reset Module**: If the DFPlayer Mini is unresponsive, try resetting it by pressing the reset button.
 
