@@ -41,6 +41,15 @@ void setup() {
 void loop() {
   // Example usage: Play sound file 1 for 5 seconds
   playSound(2, 5);
-
+  /*
+  Important: MP3 File Organization
+    Create a Folder: On your TF card (microSD card), create a folder named mp3 in the root directory.
+    Organize MP3 Files: Place your MP3 files inside this mp3 folder. Name the files in the format 0001.mp3, 0002.mp3, 0003.mp3, and so on.
+  /mp3
+    /0001.mp3
+    /0002.mp3
+    /0003.mp3
+    ...
+  */
   // Add more code here to play other sound files or implement other functionality
 }
